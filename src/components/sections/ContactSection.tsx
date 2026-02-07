@@ -55,7 +55,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Adresse</h4>
                   <p className="text-muted-foreground">
-                    Färberstraße 54, 90402 Nürnberg
+                    Hochfeldstraße 53, 86159 Augsburg
                   </p>
                 </div>
               </div>
@@ -68,10 +68,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telefon</h4>
                   <a
-                    href="tel:015118311067"
+                    href="tel:017662943675"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    015118311067
+                    017662943675
                   </a>
                 </div>
               </div>
@@ -84,9 +84,8 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Öffnungszeiten</h4>
                   <p className="text-muted-foreground">
-                    Mo. – Fr. 10:00–20:00 Uhr
-                    <br />
-                    Sa. 10:00–19:00 Uhr
+                    Mo. – Sa. 10:00–19:00 Uhr
+                    
                   </p>
                 </div>
               </div>
@@ -99,7 +98,7 @@ export const ContactSection = () => {
               </Button>
 
               <Button variant="goldOutline" size="xl" asChild>
-                <a href="tel:+4917629117689">Jetzt anrufen</a>
+                <a href="tel:017662943675">Jetzt anrufen</a>
               </Button>
             </div>
           </AnimateOnScroll>
@@ -109,7 +108,7 @@ export const ContactSection = () => {
             <div className="relative">
               <div className="aspect-square lg:aspect-[4/5] rounded-sm overflow-hidden border border-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5187.871688976504!2d11.069183276892435!3d49.44792955903806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57a835434d4d%3A0xfba938ebd99d6f67!2sTop%20Salon%20-%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1769505288553!5m2!1sde!2sde"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1356687.894879388!2d8.441724556249989!3d48.3839422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ea37b84f95fa3%3A0x2cb7fc0de86a3cf8!2sOmer%20barbershop!5e0!3m2!1sde!2sde!4v1770475481505!5m2!1sde!2sde"
                   width="100%"
                   height="100%"
                   style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
@@ -137,7 +136,6 @@ export const ContactSection = () => {
     </section>
   );
 };
-
 
 
 
